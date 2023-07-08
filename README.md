@@ -1,5 +1,7 @@
 # Spotify-Data-API-with-ETL-Pipeline
 
+<img src="https://github.com/ahmadhamad55/Spotify-Data-API-with-ETL-Pipeline/blob/main/spotify.jpg" alt="" width="700">
+
 ### English version 
 
 In this project, I successfully built an ETL (Extract, Transform, Load) data pipeline using Python to gather data from the Spotify public API. The pipeline involves extracting data about a desired artist, transforming and validating the data, and loading it into a PostgreSQL database table. By leveraging the Spotify Developer platform, I created a developer account, generated the necessary credentials (Client ID and Client Secret), and built a Python project consisting of a main.py file and a package called service. The service package contains separate Python files for the extraction, transformation/validation, and loading phases. To ensure secure handling of sensitive information, I stored the Client ID, Client Secret, and database password in a .env file and utilized the dotenv library to manage environment variables.
